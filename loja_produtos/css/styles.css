@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.profile
+.text-center {
+    margin-top: 50px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.nav-link.active {
+    background-color: #ffcc00;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    color: #ffcc00;
+}
